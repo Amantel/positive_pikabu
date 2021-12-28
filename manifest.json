@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Make bad things disappear",
+  "version": "0.1.0",
+  "description": "Hiding sad and angry posts. Icon is a courtesy of Flaticon.com",
+  
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://pikabu.ru/*"]
+  }],
+  "browser_action": {
+   "default_icon": "icon.png"
+  }
+ 
+}
